@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.bg-container{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(95, 126, 226) 45%, rgb(3, 70, 84) 100%);  ;
+    width: 100%;
+    background-size: cover;
+}
+
+#fa-img:hover{
+    transform: translateY(-8px);
+    transition: 0.5s;
+}
+
+
+
+@media screen and (max-width:426px) {
+    #card-1{
+        margin-left: 42px;
+    }
+    #card-2{
+        margin-left: 42px;
+
+    }
+    #card-3{
+        margin-left: 42px;
+    }
+    #card-4{
+        margin-left: 42px;
+    }
+    
+}
+
+@media screen and (min-width:427px) and (max-width:770px) {
+    
+    #card-3{
+        margin-left: 47px;
+    }
+    
+    
+}
+
